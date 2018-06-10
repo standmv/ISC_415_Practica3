@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f64826-4b68-4266-a88f-a1c5965fb24f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="147">
+              <caret line="15" column="39" lean-forward="true" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -382,7 +381,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="336" />
     <option name="width" value="1168" />
     <option name="height" value="739" />
   </component>
@@ -519,16 +518,15 @@
       <workItem from="1528602330552" duration="146000" />
       <workItem from="1528661188461" duration="184000" />
       <workItem from="1528667381768" duration="87000" />
-      <workItem from="1528670511275" duration="510000" />
+      <workItem from="1528670511275" duration="787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="927000" />
+    <option name="totallyTimeSpent" value="1204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1168" height="739" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -543,9 +541,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27226028" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27226028" />
       <window_info anchor="bottom" id="Problems" order="8" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.34736842" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.34736842" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.35958904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -576,8 +574,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="147">
+          <caret line="15" column="39" lean-forward="true" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -633,7 +631,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Practica3_test|Practica3</last-edited>
+          <last-edited>Practica3_main|Practica3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
