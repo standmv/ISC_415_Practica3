@@ -1,0 +1,93 @@
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema db_practica3
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema db_practica3
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `db_practica3` DEFAULT CHARACTER SET utf8 ;
+USE `db_practica3` ;
+
+-- -----------------------------------------------------
+-- Table `db_practica3`.`Articulo`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `db_practica3`.`Articulo` (
+  `idArticulo` INT NOT NULL,
+  `titulo` VARCHAR(45) NULL,
+  `cuerpo` VARCHAR(45) NULL,
+  `autor` VARCHAR(45) NULL,
+  `fecha` DATETIME NULL,
+  PRIMARY KEY (`idArticulo`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `db_practica3`.`Usuario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `db_practica3`.`Usuario` (
+  `idUsuario` INT NOT NULL,
+  `nombre` VARCHAR(45) NULL,
+  `username` VARCHAR(45) NULL,
+  `contrasena` VARCHAR(45) NULL,
+  `admin` TINYINT NULL,
+  `autor` TINYINT NULL,
+  `Articulo_idArticulo` INT NOT NULL,
+  PRIMARY KEY (`idUsuario`, `Articulo_idArticulo`),
+  INDEX `fk_Usuario_Articulo1_idx` (`Articulo_idArticulo` ASC),
+  CONSTRAINT `fk_Usuario_Articulo1`
+    FOREIGN KEY (`Articulo_idArticulo`)
+    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `db_practica3`.`Comentario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `db_practica3`.`Comentario` (
+  `idComentario` INT NOT NULL,
+  `Articulo_idArticulo` INT NOT NULL,
+  `Usuario_idUsuario` INT NOT NULL,
+  `Usuario_Articulo_idArticulo` INT NOT NULL,
+  PRIMARY KEY (`idComentario`, `Articulo_idArticulo`, `Usuario_idUsuario`, `Usuario_Articulo_idArticulo`),
+  INDEX `fk_Comentario_Articulo_idx` (`Articulo_idArticulo` ASC),
+  INDEX `fk_Comentario_Usuario1_idx` (`Usuario_idUsuario` ASC, `Usuario_Articulo_idArticulo` ASC),
+  CONSTRAINT `fk_Comentario_Articulo`
+    FOREIGN KEY (`Articulo_idArticulo`)
+    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Comentario_Usuario1`
+    FOREIGN KEY (`Usuario_idUsuario` , `Usuario_Articulo_idArticulo`)
+    REFERENCES `db_practica3`.`Usuario` (`idUsuario` , `Articulo_idArticulo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `db_practica3`.`Etiqueta`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `db_practica3`.`Etiqueta` (
+  `idEtiqueta` INT NOT NULL,
+  `etiqueta` VARCHAR(45) NULL,
+  `Articulo_idArticulo` INT NOT NULL,
+  PRIMARY KEY (`idEtiqueta`, `Articulo_idArticulo`),
+  INDEX `fk_Etiqueta_Articulo1_idx` (`Articulo_idArticulo` ASC),
+  CONSTRAINT `fk_Etiqueta_Articulo1`
+    FOREIGN KEY (`Articulo_idArticulo`)
+    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
