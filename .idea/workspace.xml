@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f64826-4b68-4266-a88f-a1c5965fb24f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_mac/laf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_mac/path.macros.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debugger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ide.general.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/html/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/html/home.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="12" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/home.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="157" column="202" selection-start-line="157" selection-start-column="202" selection-end-line="157" selection-end-column="202" />
             </state>
           </provider>
         </entry>
@@ -362,6 +377,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/html/home.ftl" />
       </list>
     </option>
   </component>
@@ -374,8 +390,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="74" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
     <option name="y" value="23" />
     <option name="width" value="1168" />
     <option name="height" value="739" />
@@ -420,6 +436,30 @@
               <item name="ISC_415_Practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practica3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISC_415_Practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practica3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISC_415_Practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practica3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISC_415_Practica3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Practica3" type="b2602c69:ProjectViewProjectNode" />
@@ -513,15 +553,16 @@
       <workItem from="1528602330552" duration="146000" />
       <workItem from="1528661188461" duration="184000" />
       <workItem from="1528667381768" duration="87000" />
-      <workItem from="1528670511275" duration="4707000" />
+      <workItem from="1528670511275" duration="4911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4379000" />
+    <option name="totallyTimeSpent" value="4583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="23" width="1168" height="739" extended-state="1" />
+    <frame x="95" y="23" width="1168" height="739" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -536,11 +577,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27226028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27226028" />
       <window_info anchor="bottom" id="Problems" order="8" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.34736842" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.19606164" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.19606164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -590,8 +631,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="12" />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/html/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="157" column="202" selection-start-line="157" selection-start-column="202" selection-end-line="157" selection-end-column="202" />
         </state>
       </provider>
     </entry>
