@@ -1,3 +1,5 @@
+package encapsulacion;
+
 import com.sun.tools.internal.xjc.reader.Ring;
 
 public class Etiqueta {

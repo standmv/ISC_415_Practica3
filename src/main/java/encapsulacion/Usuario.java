@@ -1,3 +1,5 @@
+package encapsulacion;
+
 public class Usuario {
     private String username;
     private String nombre;
