@@ -14,9 +14,9 @@ CREATE SCHEMA IF NOT EXISTS `db_practica3` DEFAULT CHARACTER SET utf8 ;
 USE `db_practica3` ;
 
 -- -----------------------------------------------------
--- Table `db_practica3`.`Articulo`
+-- Table `db_practica3`.`encapsulacion.Articulo`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_practica3`.`Articulo` (
+CREATE TABLE IF NOT EXISTS `db_practica3`.`encapsulacion.Articulo` (
   `idArticulo` INT NOT NULL,
   `titulo` VARCHAR(45) NULL,
   `cuerpo` VARCHAR(45) NULL,
@@ -27,9 +27,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `db_practica3`.`Usuario`
+-- Table `db_practica3`.`encapsulacion.Usuario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_practica3`.`Usuario` (
+CREATE TABLE IF NOT EXISTS `db_practica3`.`encapsulacion.Usuario` (
   `idUsuario` INT NOT NULL,
   `nombre` VARCHAR(45) NULL,
   `username` VARCHAR(45) NULL,
@@ -41,16 +41,16 @@ CREATE TABLE IF NOT EXISTS `db_practica3`.`Usuario` (
   INDEX `fk_Usuario_Articulo1_idx` (`Articulo_idArticulo` ASC),
   CONSTRAINT `fk_Usuario_Articulo1`
     FOREIGN KEY (`Articulo_idArticulo`)
-    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    REFERENCES `db_practica3`.`encapsulacion.Articulo` (`idArticulo`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `db_practica3`.`Comentario`
+-- Table `db_practica3`.`encapsulacion.Comentario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_practica3`.`Comentario` (
+CREATE TABLE IF NOT EXISTS `db_practica3`.`encapsulacion.Comentario` (
   `idComentario` INT NOT NULL,
   `Articulo_idArticulo` INT NOT NULL,
   `Usuario_idUsuario` INT NOT NULL,
@@ -60,21 +60,21 @@ CREATE TABLE IF NOT EXISTS `db_practica3`.`Comentario` (
   INDEX `fk_Comentario_Usuario1_idx` (`Usuario_idUsuario` ASC, `Usuario_Articulo_idArticulo` ASC),
   CONSTRAINT `fk_Comentario_Articulo`
     FOREIGN KEY (`Articulo_idArticulo`)
-    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    REFERENCES `db_practica3`.`encapsulacion.Articulo` (`idArticulo`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Comentario_Usuario1`
     FOREIGN KEY (`Usuario_idUsuario` , `Usuario_Articulo_idArticulo`)
-    REFERENCES `db_practica3`.`Usuario` (`idUsuario` , `Articulo_idArticulo`)
+    REFERENCES `db_practica3`.`encapsulacion.Usuario` (`idUsuario` , `Articulo_idArticulo`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `db_practica3`.`Etiqueta`
+-- Table `db_practica3`.`encapsulacion.Etiqueta`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `db_practica3`.`Etiqueta` (
+CREATE TABLE IF NOT EXISTS `db_practica3`.`encapsulacion.Etiqueta` (
   `idEtiqueta` INT NOT NULL,
   `etiqueta` VARCHAR(45) NULL,
   `Articulo_idArticulo` INT NOT NULL,
@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `db_practica3`.`Etiqueta` (
   INDEX `fk_Etiqueta_Articulo1_idx` (`Articulo_idArticulo` ASC),
   CONSTRAINT `fk_Etiqueta_Articulo1`
     FOREIGN KEY (`Articulo_idArticulo`)
-    REFERENCES `db_practica3`.`Articulo` (`idArticulo`)
+    REFERENCES `db_practica3`.`encapsulacion.Articulo` (`idArticulo`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

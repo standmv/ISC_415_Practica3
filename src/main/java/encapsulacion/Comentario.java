@@ -1,3 +1,5 @@
+package encapsulacion;
+
 public class Comentario {
     private Long id;
     private String comentario;
