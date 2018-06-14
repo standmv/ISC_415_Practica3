@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="../CSS/home.css" rel="stylesheet" type="text/css">
+    <link href="../../../../../../CSS/home.css" rel="stylesheet" type="text/css">
 
-<title>HOME</title>
+    <title>HOME</title>
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="../ISC_415_Practica3/src/main/resources/templates/css/home.css" type="text/css">
-<link rel="stylesheet" href="../ISC_415_Practica3/src/main/resources/templates/css/bootstrap.css">
-<link rel="stylesheet" href="../ISC_415_Practica3/src/main/resources/templates/css/bootstrap.min.css" type="text/css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap-4.0.0/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap-4.0.0/dist/css/bootstrap.css">
+
 
 </head>
 <body>
-
-<nav>
-
-  <div class="container">
-    <div class="nav navbar-light">
-      <a class="navbar-brand" href="#">Blog</a>
-     </div>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Blog Oficial</a>
+    <a href="#" class="btn btn-primary ">Crear Publicacion</a>
 
 </nav>
-
-
 <hr>
 
 
@@ -35,112 +28,150 @@
 
 
 <div class="container">
-  <div class="container-fluid text-center">
 
-    <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <a href="#" class="btn btn-primary" role="button">Ver</a>
+
+    <div class="row text-center">
+        <div class="col-sm-6">
+
+            <div class="card border-primary">
+
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-
-      <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          <a href="#" class="btn btn-primary" role="button">Ver</a>
+        <div class="col-sm-6">
+            <div class="card  border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+    <!--div row-->
 
-	</div> <!--div row-->
+    <hr>
 
 
-
-	  <div class="container-fluid text-center">
-
-    <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <a href="#" class="btn btn-primary" role="button">Ver</a>
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <div class="card  border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-      <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          <a href="#" class="btn btn-primary" role="button">Ver</a>
+        <div class="col-sm-6">
+            <div class="card  border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </div><!--div row-->
 
-	</div> <!--div row-->
+    <hr>
 
-	  <div class="container-fluid text-center">
-
-    <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <a href="#" class="btn btn-primary" role="button">Ver</a>
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <div class="card  border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-      <div class="col-xs-6 col-lg-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Titulo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          <a href="#" class="btn btn-primary" role="button">Ver</a>
+        <div class="col-sm-6">
+            <div class="card  border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Ver Publicacion</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-	</div> <!--div row-->
+    </div><!--div row-->
 </div> <!-- div conteiner-->
 
-<hr>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 mt-4 bg-dark">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold"><strong>Sobre Nosotros</strong></h6>
+                <p style="color: aliceblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
 
 
 
-<hr>
-  <div class="container well">
-    <div class="row">
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-        <address>
-        <strong>MyStoreFront, Inc.</strong><br>
-        Indian Treasure Link<br>
-        Quitman, WA, 99110-0219<br>
-        <abbr title="Phone">P:</abbr> (123) 456-7890
-      </address>
-        <address>
-        <strong>Full Name</strong><br>
-        <a href="mailto:#">first.last@example.com</a>
-        </address>
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold"><strong>Links</strong></h6>
+                <p style="color: aliceblue"><a href="#!">Cuenta</a></p>
+                <p style="color: aliceblue"><a href="#!">Ayuda</a></p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold"><strong>Contacto</strong></h6>
+                <p style="color: aliceblue"><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+
+            </div>
+            <!-- Grid column -->
+
         </div>
-    </div>
-  </div>
+        <!-- Footer links -->
 
-<footer class="text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p>Copyright © POMPONEO. All rights reserved.</p>
-      </div>
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-8 col-lg-8">
+
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2018 Copyright:<strong> POMPONEO  </strong></p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+
+
+        </div>
+        <!-- Grid row -->
+
     </div>
-  </div>
+    <!-- Footer Links -->
+
 </footer>
+<!-- Footer -->
+
 
 </body>
 </html>

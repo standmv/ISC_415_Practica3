@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        staticFiles.location("/templates/html");
+        staticFiles.location("/templates");
 
         final Configuration configuration = new Configuration(new Version(2,3,0));
         configuration.setClassForTemplateLoading(Main.class, "/");
