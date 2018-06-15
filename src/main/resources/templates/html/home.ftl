@@ -11,19 +11,40 @@
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="../css/bootstrap-4.0.0/dist/css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="../css/bootstrap-4.0.0/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../css/bootstrap-4.0.0/dist/css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="../css/login.css" type="text/css">
 
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Blog Oficial</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">POMPONEO TEAM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link" href="#">Crear Publicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registrar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-</nav>
 <hr>
 
 
@@ -35,9 +56,9 @@
 
   <div class="row text-center">
   <div class="col-sm-6">
-
+ 
     <div class="card border-primary">
-
+     
       <div class="card-body">
         <h5 class="card-title">Titulo</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -83,7 +104,7 @@
 </div><!--div row-->
 
   <hr>
-
+	
   <div class="row text-center">
   <div class="col-sm-6">
     <div class="card  border-primary">
@@ -164,7 +185,7 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-
+   
 
     </div>
     <!-- Grid row -->

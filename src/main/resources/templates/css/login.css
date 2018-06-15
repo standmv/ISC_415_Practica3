@@ -28,6 +28,13 @@ body {
   padding: 10px;
   font-family: 'Varela Round';
 }
+
+.navbar{
+	
+	margin-bottom: 100px;
+		
+	}
+	
 /*=== 2. Anchor Link ===*/
 a {
   color: #aaaaaa;
@@ -287,4 +294,6 @@ label:hover:before {
   font-size: 25px;
   color: #aaaaaa;
   font-weight: bold;
+	
+	
 }
